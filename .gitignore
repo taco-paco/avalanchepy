@@ -1,0 +1,10 @@
+# IDEs related
+.vscode
+.idea
+
+# macOS related
+.DS_Store
+
+# python related
+__pycache__/
+.pytest_cache

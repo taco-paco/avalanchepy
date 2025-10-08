@@ -1,0 +1,25 @@
+[project]
+name = "avalanchepy"
+authors = [
+    { name = "Twinstake", email = "info@twinstake.io" },
+    { name = "Paco Edwin", email = "edwinswatpako@gmail.com"}
+]
+description = "Python library for interfacing with the Avalanche Platform"
+version = "0.1.0"
+license = "MIT"
+
+[tool.poetry]
+include = ["avalanchepy"]
+packages = [
+    { include = "avalanchepy" }
+]
+
+[tool.poetry.group.avalanchepy.dependencies]
+requests = "^2.32.3"
+secp256k1 = "0.14.0"
+bech32 = "1.2.0"
+base58 = "2.1.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+pytest-mock = "^3.14.0"
