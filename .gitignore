@@ -8,3 +8,6 @@
 # python related
 __pycache__/
 .pytest_cache
+dist
+avalanchepy.egg-info
+build
